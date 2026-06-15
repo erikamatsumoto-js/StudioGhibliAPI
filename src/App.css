@@ -1,0 +1,105 @@
+/*Header*/
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-image {
+  width: 30px;
+}
+
+.header-icon {
+  color: #fff;
+  margin-right: 15px;
+}
+
+/*Hero*/
+
+.hero-image {
+  height: 500px;
+  object-fit: cover;
+}
+.hero-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #fdfcfc;
+}
+
+.hero-button {
+  padding: 12px 24px;
+  font-size: 18px;
+}
+/*Film Card*/
+.director-select {
+  margin: 20px auto;
+  font-size: 25px;
+}
+.film-cards {
+  border: none;
+}
+.film-cards:hover {
+  background-color: rgba(146, 139, 139, 0.2);
+  color: white;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.8);
+}
+
+/*Film detail*/
+.img-filmbanner {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.aboutfilm {
+  display: flex;
+  gap: 16px;
+  width: 90%;
+  margin: 0 auto;
+}
+.film-img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/*Footer*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+/*Log in*/
+.login-image {
+  background-image: url("./assets/kaguyahime046.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 70%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
