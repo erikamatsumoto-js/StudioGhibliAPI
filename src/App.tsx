@@ -4,14 +4,7 @@ import Header from "./components/Header";
 import FilmDetail from "./FilmDetail";
 import Footer from "./components/Footer";
 
-
-
-import {
-  createHashRouter,
-  Link,
-  Outlet,
-  RouterProvider
-} from 'react-router-dom'
+import { createHashRouter, Outlet, RouterProvider } from "react-router-dom";
 import "./App.css";
 
 function Homepage() {
@@ -30,7 +23,7 @@ const router = createHashRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "login", element: <Login /> },
-      { path: "filmdetail/:id", element: <FilmDetail /> }
+      { path: "filmdetail/:id", element: <FilmDetail /> },
     ],
   },
 ]);
